@@ -3,6 +3,8 @@ HELP.md
 !.mvn/wrapper/maven-wrapper.jar
 
 metadata/
+  
+.metadata
 
 ### STS ###
 .apt_generated
