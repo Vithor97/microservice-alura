@@ -3,5 +3,5 @@ server:
   
 spring:
   cloud:    config:      server:        git:
-          uri: https://github.com/Vithor97/microservice-repo.git          search-paths: fornecedor          default-label: main
+          uri: https://github.com/Vithor97/microservice-repo.git          search-paths: fornecedor, loja, transportador          default-label: main
                     
