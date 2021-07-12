@@ -59,6 +59,8 @@ public class CompraService {
 		compra.setCompraId(compraSalva.getId());
 		
 		final String estado = compra.getEndereco().getEstado();
+		
+		
 		//Comunicação com microservico de fornecedir para pegar o estado
 		InfoFornecedoDTO info = fornecedorClient.getInfoPorEstado(estado);
 		
